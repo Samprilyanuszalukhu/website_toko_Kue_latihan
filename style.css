@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(102, 205, 170);
+    color: whitesmoke;
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    height: 300px;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.hero h1 {
+    color: beige;
+    font-size: 50px;
+
+}
+
+.hero p {
+    color: white
+}
+
+.hero a {
+    text-decoration: none;
+    background-color: rgb(211, 23, 133);
+    color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.all-produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+.produk {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+
+}
+
+.produk img {
+    height: auto;
+    width: 100%;
+}
+
+.produk p {
+    font-weight: bold;
+}
+
+.produk a {
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .produk {
+        width: 170px;
+        height: 300px;
+        background-color: mediumaquamarine;
+
+    }
+}
