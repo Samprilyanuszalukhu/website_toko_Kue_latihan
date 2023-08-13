@@ -18,15 +18,15 @@ body {
 
 .hero {
     background-image: url("hero.jpg");
-    height: 150px;
+    height: 300px;
     text-align: center;
-    padding: 150px;
+    padding: 100px;
 
 }
 
 .hero h1 {
     color: beige;
-    font-size: 30px;
+    font-size: 50px;
 
 }
 
@@ -37,9 +37,9 @@ body {
 .hero a {
     text-decoration: none;
     background-color: rgb(211, 23, 133);
-    color: tomato;
+    color: aqua;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -55,10 +55,10 @@ body {
 
 .produk {
     background-color: whitesmoke;
-    width: 20px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0. 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
     margin-bottom: 150px;
 
 }
